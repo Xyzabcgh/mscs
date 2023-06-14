@@ -1,0 +1,63 @@
+.Title
+{
+    
+    background-color: rgb(39, 96, 35);
+    
+    color: aliceblue;   
+}
+.img1{                              
+    width:945px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading{
+    
+   z-index: 10;
+    
+    text-align: center;
+}
+.Title p{
+    color: rgb(195, 239, 137);
+    display: inline-block;
+}
+
+
+
+  
+
+
+.navigation-tlbar
+{
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(193, 213, 110);
+    color:white;
+text-align: center;
+
+height: 50px;
+}
+
+.dropdown-item{
+    color:white;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    background-color: black;
+    
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+      
+      
+  }
+  .dropdown-item:hover {background-color: aqua; 
+    }
+  
